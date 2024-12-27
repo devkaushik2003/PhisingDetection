@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Malicious URL Detector</title>
+    <!-- Corrected path for CSS -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
+    <!-- Big Headline -->
+    <h1 style="text-align: center; font-size: 2.5em; margin-top: 20px; color: #4CAF50;">
+        Check if your URL is Malicious or Not
+    </h1>
+
+    <!-- Main Heading -->
+    <h2 style="text-align: center; font-size: 1.8em; margin-top: 10px;">
+        Malicious URL Detector
+    </h2>
+
+    <!-- Form -->
+    <form id="urlForm" style="text-align: center; margin-top: 20px;">
+        <input type="text" id="url" placeholder="Enter URL" required style="width: 300px; padding: 10px; font-size: 1em;">
+        <button type="submit" style="padding: 10px 20px; font-size: 1em; background-color: #4CAF50; color: white; border: none; cursor: pointer;">
+            Check
+        </button>
+    </form>
+
+    <!-- Result -->
+    <p id="result" style="text-align: center; font-size: 1.5em; margin-top: 20px; color: #333;"></p>
+
+    <!-- Script -->
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>

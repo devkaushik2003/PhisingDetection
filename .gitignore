@@ -1,0 +1,7 @@
+ 
+# Ignore virtual environment and other unnecessary files
+venv/
+__pycache__/
+*.pyc
+*.pyo
+.DS_Store
