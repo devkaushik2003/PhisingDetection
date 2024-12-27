@@ -15,11 +15,7 @@
     "functions": {
       "app.py": {
         "runtime": "python3.9",
-        "includeFiles": [
-          "models/model_rf.pkl",
-          "models/label_encoder.pkl"
-        ]
+        "includeFiles": "models/*"
       }
     }
   }
-  
