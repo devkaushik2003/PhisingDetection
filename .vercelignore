@@ -1,0 +1,7 @@
+venv/
+logs/
+notebooks/
+tests/
+data/
+*.pyc
+__pycache__/
